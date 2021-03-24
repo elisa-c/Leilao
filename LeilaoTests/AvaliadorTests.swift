@@ -49,4 +49,16 @@ class AvaliadorTests: XCTestCase {
         XCTAssertEqual(400.0, leiloeiro.maiorLance())
 
     }
+    
+    func testDeveEntenderLeilaoComApenasUmLance() {
+        let joao = Usuario(nome: "Joao")
+        let leilao = Leilao(descricao: "Playstation")
+        leilao.propoe(lance: Lance(joao, 1000.0))
+        
+        let leiloeiro = Avaliador()
+        leiloeiro.avalia(leilao: leilao)
+        
+        XCTAssertEqual(1000.0, leiloeiro.menorLance())
+        XCTAssertEqual(1000.0, leiloeiro.maiorLance())
+    }
 }
