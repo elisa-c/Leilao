@@ -18,6 +18,7 @@
 		03FA4B25209353AF0047D61B /* Lance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FA4B24209353AF0047D61B /* Lance.swift */; };
 		03FA4B27209353CB0047D61B /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FA4B26209353CB0047D61B /* Usuario.swift */; };
 		03FA4B29209354F50047D61B /* Leilao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FA4B28209354F50047D61B /* Leilao.swift */; };
+		669511B1260AE75A00AACCB2 /* AvaliadorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669511B0260AE75A00AACCB2 /* AvaliadorTests.swift */; };
 		A23F5A0F209CA483000E6525 /* Avaliador.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23F5A0E209CA483000E6525 /* Avaliador.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		03FA4B24209353AF0047D61B /* Lance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lance.swift; sourceTree = "<group>"; };
 		03FA4B26209353CB0047D61B /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		03FA4B28209354F50047D61B /* Leilao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leilao.swift; sourceTree = "<group>"; };
+		669511B0260AE75A00AACCB2 /* AvaliadorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvaliadorTests.swift; sourceTree = "<group>"; };
 		A23F5A0E209CA483000E6525 /* Avaliador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avaliador.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,7 +111,6 @@
 			children = (
 				03FA4AF0209353270047D61B /* AppDelegate.swift */,
 				03FA4B21209353730047D61B /* Models */,
-				A23F5A0D209CA1B9000E6525 /* Views */,
 				03FA4B23209353940047D61B /* Controllers */,
 				03FA4AF4209353270047D61B /* Main.storyboard */,
 				03FA4AFA209353290047D61B /* Assets.xcassets */,
@@ -125,6 +126,7 @@
 			children = (
 				03FA4B08209353290047D61B /* LeilaoTests.swift */,
 				03FA4B0A209353290047D61B /* Info.plist */,
+				669511B0260AE75A00AACCB2 /* AvaliadorTests.swift */,
 			);
 			path = LeilaoTests;
 			sourceTree = "<group>";
@@ -155,13 +157,6 @@
 				03FA4AF2209353270047D61B /* ViewController.swift */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		A23F5A0D209CA1B9000E6525 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03FA4B09209353290047D61B /* LeilaoTests.swift in Sources */,
+				669511B1260AE75A00AACCB2 /* AvaliadorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
